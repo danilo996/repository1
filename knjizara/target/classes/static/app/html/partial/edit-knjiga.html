@@ -1,0 +1,16 @@
+<div ng-controller="editKnjigaCtrl">
+	<h1>Edit knjiga</h1>
+	<form class="table table-default">
+		<label for="naziv">Naziv</label>
+		<input ng-model="knjiga.naziv" id="naziv">
+		<label for="Pisac">Pisac</label>
+		<input ng-model="knjiga.pisac" id="Pisac">
+		<label for="Isbn">Isbn</label>
+		<input ng-model="knjiga.isbn" id="Isbn">
+		<label for="Cena">Cena</label>
+		<input ng-model="knjiga.cena" id="Cena">
+		<label for="Kolicina">Kolicina</label>
+		<input ng-model="knjiga.kolicina" id="Kolicina">
+		<button ng-click="edit()">Sacuvaj</button>
+	</form>
+</div>
